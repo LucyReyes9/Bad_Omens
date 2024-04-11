@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>BAD OMENS</title>
+</head>
+
+<body>
+    <div class="body-completo">
+        <nav class="menu-izquierdo">
+            <p class="titulo-principal">BAD OMENS</p>
+            <div class="contenedor-imagen-logo">
+                <img src="logo3.jpeg" alt="" class="img-logo">
+            </div>
+            <div class="botones-secciones">
+                <P onclick="scrollToHome()" class="botones-menu-izquierdo" onmouseover="mouseOver(this)"
+                    onmouseout="mouseOut(this)">HOME</P>
+                <p onclick="scrollToMembers()" class="botones-menu-izquierdo" onmouseover="mouseOver(this)"
+                    onmouseout="mouseOut(this)">MEMBERS</p>
+                <p onclick="scrollToTours()" class="botones-menu-izquierdo" onmouseover="mouseOver(this)"
+                    onmouseout="mouseOut(this)">TOUR</p>
+                <P onclick="scrollToAbout()" class="botones-menu-izquierdo" onmouseover="mouseOver(this)"
+                    onmouseout="mouseOut(this)">ABOUT</P>
+                <P class="botones-menu-izquierdo" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">LOGIN</P>
+            </div>
+        </nav>
+        <div class="menu-derecho">
+            <section id="home" onmouseover="sectionOver(this)" onmouseout="sectionOut(this)">
+                <div class="anuncio">
+                    <div class="texto-anuncio">
+                        <p class="titulo-anuncio">THE DEATH OF PEACE OF MIND</p>
+                    </div>
+                    <div class="video-anuncio">
+                        <video id="video">
+                            <source src="the death of peace of mind.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="miembros-banda" onmouseover="sectionOver(this)" onmouseout="sectionOut(this)">
+                <p class="p-integrantes">MEMBERS</p>
+                <div class="contenedor-integrantes">
+                    <div class="contenedor-integrante-individual">
+                        <img src="noah.jpg" alt="">
+                        <p>NOAH SEBASTIAN</p>
+                        <a href="https://es.famousbirthdays.com/people/noah-sebastian.html" target="_blank">
+                            <button onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">READ MORE</button>
+                        </a>
+                    </div>
+
+                    <div class="contenedor-integrante-individual">
+                        <img src="descargar (2).jpg" alt="">
+                        <p>NICOLAS RUFFILIO</p>
+                        <a href="https://es.famousbirthdays.com/people/nicholas-ruffilo.html" target="_blank">
+                            <button onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">READ MORE</button>
+                        </a>
+                    </div>
+
+                    <div class="contenedor-integrante-individual">
+                        <img src="descargar (1).jpg" alt="">
+                        <p>NICK FOLIO</p>
+                        <a href="https://es.famousbirthdays.com/people/nick-folio.html" target="_blank">
+                            <button onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">READ MORE</button>
+                        </a>
+                    </div>
+
+                    <div class="contenedor-integrante-individual">
+                        <img src="descargar.jpg" alt="">
+                        <p>JOAKIM "JOLLY" KARLSSON</p>
+                        <a href="https://www.spirit-of-metal.com/es/artist/Joakim_Jolly_Karlsson/328537"
+                            target="_blank">
+                            <button onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">READ MORE</button>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="tours" onmouseover="sectionOver(this)" onmouseout="sectionOut(this)">
+                <p class="p-integrantes">NEXT TOUR</p>
+                <table class="tabla-tours">
+                    <div class="renglones">
+                        <tr>
+                            <div class="columna-fechas">
+                                <th>
+                                    <img src="Fecha1.png" alt="fecha 1">
+                                </th>
+                            </div>
+
+                            <div class="columna-lugar">
+                                <th>
+                                    <p> BOENING CENTER AT TECH PORT <br> SAN ANTONIO, TX</p>
+                                </th>
+                            </div>
+
+                            <div class="columna-asientos">
+                                <th>
+                                    <a href="https://www.universe.com/events/bad-omens-concrete-forever-vip-san-antonio-42124-tickets-DG8CR7"
+                                        target="_blank">
+                                        <button class="boton-tablas" onmouseover="mouseOver(this)"
+                                            onmouseout="mouseOut(this)">VIP</button>
+                                    </a>
+                                </th>
+                            </div>
+
+                            <div class="columna-tickets">
+                                <th>
+                                    <a href="https://www.etix.com/ticket/p/84428830/bad-omens-concrete-forever-san-antonio-boeing-center-at-tech-port?clickref=1011lyqPURjV"
+                                        target="_blank">
+                                        <button class="boton-tablas" onmouseover="mouseOver(this)"
+                                            onmouseout="mouseOut(this)">TICKETS</button>
+                                    </a>
+                                </th>
+                            </div>
+                        </tr>
+                    </div>
+
+                    <div class="renglones">
+                        <tr>
+                            <div class="columna-fechas">
+                                <th>
+                                    <img src="fecha2.png" alt="fecha 2">
+                                </th>
+                            </div>
+
+                            <div class="columna-lugar">
+                                <th>
+                                    <p> REVELT ENTERTAINMENT CENTER <br> SAN ANTONIO, TX</p>
+                                </th>
+                            </div>
+
+                            <div class="columna-asientos">
+                                <th>
+                                    <a href="https://www.universe.com/events/bad-omens-concrete-forever-vip-san-antonio-42124-tickets-DG8CR7"
+                                        target="_blank">
+                                        <button class="boton-tablas" onmouseover="mouseOver(this)"
+                                            onmouseout="mouseOut(this)">VIP</button>
+                                    </a>
+                                </th>
+                            </div>
+
+                            <div class="columna-tickets">
+                                <th>
+                                    <a href="https://www.etix.com/ticket/p/84428830/bad-omens-concrete-forever-san-antonio-boeing-center-at-tech-port?clickref=1011lyqPURjV"
+                                        target="_blank">
+                                        <button class="boton-tablas" onmouseover="mouseOver(this)"
+                                            onmouseout="mouseOut(this)">TICKETS</button>
+                                    </a>
+                                </th>
+                            </div>
+                        </tr>
+                    </div>
+
+                    <div class="renglones">
+                        <tr>
+                            <div class="columna-fechas">
+                                <th>
+                                    <img src="fecha3.png" alt="fecha 3">
+                                </th>
+                            </div>
+
+                            <div class="columna-lugar">
+                                <th>
+                                    <p> MESA ANPHITHEATRE <br> MESA, AZ</p>
+                                </th>
+                            </div>
+
+                            <div class="columna-asientos">
+                                <th>
+                                    <a href="https://www.universe.com/events/bad-omens-concrete-forever-vip-san-antonio-42124-tickets-DG8CR7"
+                                        target="_blank">
+                                        <button class="boton-tablas" onmouseover="mouseOver(this)"
+                                            onmouseout="mouseOut(this)">VIP</button>
+                                    </a>
+                                </th>
+                            </div>
+
+                            <div class="columna-tickets">
+                                <th>
+                                    <a href="https://www.etix.com/ticket/p/84428830/bad-omens-concrete-forever-san-antonio-boeing-center-at-tech-port?clickref=1011lyqPURjV"
+                                        target="_blank">
+                                        <button class="boton-tablas" onmouseover="mouseOver(this)"
+                                            onmouseout="mouseOut(this)">TICKETS</button>
+                                    </a>
+                                </th>
+                            </div>
+                        </tr>
+                    </div>
+                </table>
+            </section>
+
+
+            <script src="script.js"></script>
+        </div>
+    </div>
+    <!--
+    <footer>
+        <div class="nav-footer" id="about">
+            <div class="social-icons">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="x.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+    -->
+</body>
+
+</html>
